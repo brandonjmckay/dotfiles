@@ -100,11 +100,10 @@ export FZF_DEFAULT_COMMAND="fd --exclude={.git,.idea,.vscode,.sass-cache,node_mo
 
 # Warning - the below path includes a potential security hazard in that it
 # includes './bin'
-export PATH="$HOME/.rbenv/shims:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="bin:$PATH"
 export PATH="./bin:$PATH"
+export PATH=".gems/bin:$PATH"
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/bin:$PATH"
@@ -114,3 +113,8 @@ export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 export PATH="$HOME/flutter/bin:$PATH"
+export PATH="$HOME/.rbenv/shims:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/Documents/elasticsearch-6.8.5/bin:$PATH"
+
+[ -f "/Users/bmckay/.shopify-app-cli/shopify.sh" ] && source "/Users/bmckay/.shopify-app-cli/shopify.sh"
